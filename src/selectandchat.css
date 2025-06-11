@@ -1,0 +1,205 @@
+* Header Styling */
+header {
+  padding: 20px 0px;
+  background-color: white;
+  color: #176b87;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.container {
+  display: flex;
+  margin: 30px;
+  height: auto; 
+  gap: 0; 
+}
+
+
+.ambulance-list {
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 5px 13px rgb(93, 103, 107);
+  width: 48%; 
+  height: 570px; 
+  margin-right: 0; 
+}
+
+
+.ambulance-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ambulance-list li {
+  margin: 10px 0;
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #008CBA;
+  transition: background-color 0.3s;
+  font-size: 18px;
+}
+
+.ambulance-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.ambulance-list li.available {
+  background-color: white;
+}
+
+.ambulance-list li.busy {
+  background-color: rgb(230, 226, 226);
+}
+
+button {
+  background-color: #176b87;
+  color: white;
+  padding: 2px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 25px;
+}
+
+button:hover {
+  background-color: #033d50;
+}
+
+button:disabled {
+  background-color: #bbb;
+  cursor: not-allowed;
+}
+
+/* Chatbox Styling */
+.chat-container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 5px 13px rgb(93, 103, 107);
+  width: 150%; /* Ensure it takes up 48% of the page width */
+  height: 550px; /* Set fixed height to match the ambulance list */
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+.chat-header {
+  font-size: 30px; /* Larger header font */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: #176b87;
+}
+
+/* Message Area */
+.message-area {
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: 300px; /* Adjusted height to match the list's height */
+  width:90%;
+  overflow-y: auto;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+}
+
+.message-area p {
+  margin: 5px 0;
+}
+
+.message-area .message-sender {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Input Area */
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-container input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid  #176b87;
+  border-radius: 4px;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #176b87;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.input-container button:hover {
+  background-color: #033d50;
+}
+
+button.send-message {
+  background-color: #176b87;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.send-message:hover {
+  background-color: #033d50;
+}
+
+button.send-message:disabled {
+  background-color: #bbb;
+  cursor: not-allowed;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+  color: #008CBA;
+  font-size: 16px;
+}
+
+footer strong {
+  color: red;
+}
+.role-buttons button {
+    width: 30%;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+ 
+  
+
+
+
+
+
+
+  
+
+
+
+
+

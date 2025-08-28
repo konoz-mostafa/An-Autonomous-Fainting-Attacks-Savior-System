@@ -40,8 +40,12 @@ function Login() {
   };
 
   return (
+    <div>
+      <h2 >Login</h2>
+      <br/>
+
     <div className="login-container" >
-      <h2>Login</h2>
+  
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -59,7 +63,7 @@ function Login() {
         />
         <button type="submit">Login</button>
       </form>
-    </div>
+    </div></div>
   );
 }
 
